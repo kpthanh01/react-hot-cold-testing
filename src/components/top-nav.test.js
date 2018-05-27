@@ -6,7 +6,7 @@ import TopNav from './top-nav';
 describe('<TopNav />', () => {
 	it('Renders without crashing', () => {
 		shallow(<TopNav />);
-	});
+	}); 
 
 	it('Should call onRestartGame when new game is clicked', () => {
 		const callback = jest.fn();
